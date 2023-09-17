@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Poppines", sans-serif;
+}
+
+h1{
+    background-color: antiquewhite;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#map{
+    width: 80%;
+    height: 350px;
+    padding: 10px;
+}
